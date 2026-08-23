@@ -1,6 +1,14 @@
 ﻿# Cleison IA
 
-Assistente inteligente para produtividade, automacao e interacao multimodal no computador.
+Assistente inteligente para produtividade, automação e interação multimodal no computador.
+
+<p align="center">
+  <img 
+    src="./Captura%20de%20tela%202026-08-23%20175645.png" 
+    alt="Captura de tela da aplicação Cleison IA"
+    width="900"
+  />
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react" alt="React" />
@@ -9,7 +17,12 @@ Assistente inteligente para produtividade, automacao e interacao multimodal no c
   <img src="https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite" alt="Vite" />
 </p>
 
-## Visao geral
+## Visão geral
+
+O **Cleison IA** é um assistente inteligente desenvolvido para aumentar a produtividade, automatizar tarefas e permitir uma interação multimodal com o computador.
+
+```
+
 
 A Cleison IA e uma aplicacao de assistente pessoal com foco em produtividade, automacao e percepcao visual. Ela combina inteligencia artificial, comandos por voz, analise de camera e acoes automaticas no ambiente do usuario.
 

@@ -1,20 +1,82 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+﻿# Cleison IA
 
-# Run and deploy your AI Studio app
+Assistente inteligente para produtividade, automacao e interacao multimodal no computador.
 
-This contains everything you need to run your app locally.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Node.js-20-339933?style=for-the-badge&logo=nodedotjs" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Vite-5-646CFF?style=for-the-badge&logo=vite" alt="Vite" />
+</p>
 
-View your app in AI Studio: https://ai.studio/apps/e5821cf2-f481-4f77-8ee5-028cd85d5fb7
+## Visao geral
 
-## Run Locally
+A Cleison IA e uma aplicacao de assistente pessoal com foco em produtividade, automacao e percepcao visual. Ela combina inteligencia artificial, comandos por voz, analise de camera e acoes automaticas no ambiente do usuario.
 
-**Prerequisites:**  Node.js
+O objetivo do projeto e criar uma experiencia onde o usuario possa interagir com o sistema por texto ou voz e receber apoio em tarefas do dia a dia, como:
 
+- responder perguntas e executar instrucoes em linguagem natural;
+- controlar acoes por voz;
+- analisar imagens da camera e da tela;
+- automatizar cliques, digitacao e abertura de aplicacoes;
+- manter historico e memoria contextual das interacoes.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Proposito da aplicacao
+
+A Cleison IA foi desenvolvida para funcionar como um copiloto digital local, unindo:
+
+- conversa inteligente;
+- automacao de tarefas no computador;
+- visao computacional;
+- interacao multimodal com voz, texto e imagem.
+
+Ela foi pensada para facilitar uso cotidiano, reduzindo esforco manual e tornando a interacao com o computador mais natural e inteligente.
+
+## Tecnologias utilizadas
+
+- React + TypeScript + Vite para a interface
+- Express + Node.js para o backend local
+- Gemini API para inteligencia conversacional e processamento de instrucoes
+- Web Speech API para reconhecimento e sintese de voz
+- MediaDevices / getUserMedia para microfone e camera
+- APIs de captura de tela para monitoramento visual
+- RobotJS para automacao de mouse e teclado
+- Arquitetura local com memoria, historico e contexto de uso
+
+## Funcionalidades principais
+
+- Assistente conversacional em interface web
+- Comandos por voz e respostas em audio
+- Captura de camera e analise visual
+- Captura de tela e monitoramento do desktop
+- Automacao de acoes no sistema
+- Historico e memoria contextual
+- Experiencia local com integracao de IA
+
+## Requisitos
+
+- Node.js instalado
+- Chave da Gemini configurada no arquivo .env.local
+- Permissoes do navegador para microfone e camera
+
+## Como rodar localmente
+
+1. Instale as dependencias:
+   npm install
+
+2. Configure a variavel de ambiente no arquivo .env.local:
+   GEMINI_API_KEY=sua_chave_aqui
+
+3. Inicie a aplicacao:
+   npm run dev
+
+4. Abra a URL exibida no terminal, normalmente:
+   http://localhost:3000
+
+## Observacoes
+
+A aplicacao depende de permissoes do navegador para microfone e camera e de uma chave valida da API Gemini para fornecer respostas inteligentes em nuvem. Caso a API esteja indisponivel ou sem quota, o sistema pode continuar funcionando em um modo local de fallback.
+
+## Licenca
+
+Este projeto tem finalidade de estudo, desenvolvimento e uso pessoal em solucoes de IA e automacao.

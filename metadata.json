@@ -1,0 +1,7 @@
+{
+  "name": "Cleison IA",
+  "description": "Assistente de Inteligência Artificial para desktop com controle de ferramentas, análise de tela, comandos de voz e memória persistente.",
+  "requestFramePermissions": ["microphone", "camera", "display-capture"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
